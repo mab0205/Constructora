@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AvilaSelva</title>
+    <link rel="stylesheet"  href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="cards/styles.css">
+
+</head>
+
+<body>
+<!--BARRA DE INICIO-->
+<section class ="bar">
+  <img alt ="logo Avila Selva" src="img/logo.jpg" height="70"/>  
+        <div class="nav">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="menu1">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>  
+            </div>
+        </div>
+    
+</section>
+    
+<!--CPORTADA-->
+<section class="mountains">
+
+<img src="img/foto3.JPG" id="bg">
+
+    <div class="txt">
+    <h2 id="text">CONSTRUYENDO SUEÑOS</h2>
+    <h4>Para pequeños o grandes proyectos, nosotros tenemos la mejor solución.
+    <a href="#" id="more-post">Sobre Nosotros</a>  
+    <a href="#" id="ask">Contáctate</a>  
+    </h4></div>
+    
+
+    <script type="text/javascript">
+    let bg=document.getElementById("bg");
+
+    window.addEventListener('scroll',function(){
+        var value =window.scrollY;
+        bg.style.top= value * 0.5 + 'px';
+       
+    })
+
+    </script>
+</section>
+
+ <!--TRES CUADROS INFORMATIVOS-->  
+<section class="calidad">
+
+        <div class="materiales">
+        <i class="fas fa-cubes"></i>
+        <br><br>
+        <h1>Materiales</h1><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa qui ratione asperiores laborum nulla amet est nemo.</p></div>
+    
+        <div class="experiencia">
+        <i class="far fa-building"></i>
+        <br><br>
+        <h1>Experiencias</h1><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa qui ratione asperiores laborum nulla amet est nemo.</p></div>
+
+        <div class="tecnologia">
+        </i><i class="fas fa-wrench"></i>
+        <br><br>
+        <h1>Tecnologia y Calidad</h1><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa qui ratione asperiores laborum nulla amet est nemo.</p>
+    </div>
+</section>
+
+<!--SOBRE LA EMPRESA-->
+<section class="main"> 
+    <div class="lucky">
+        <h1>Calidad en Construcción</h1>
+         <div>
+        <img class="col-img"  alt ="Obra en construccion" src="img/foto4.JPG" height="250"/>   
+        <div class="col-6"><p>With over 15 years of experience under our hard hat,
+             we partner with owners and design professionals to build high-quality projects.</p></div> 
+    </div>
+</div>
+</section>
+
+<!--PROYECTOS ANTIGUOS-->
+<section class="antiguos"> 
+    <div class="proyectos1">
+        <h1>Calidad en Construcción</h1>
+       <p>With over 15 years of experience under our hard hat,
+             we partner with owners and design professionals to build high-quality projects.</p>
+   
+</div>
+</section>
+
+<!--SLIDER DE PROYECTOS ANTIGUOS-->
+<section class="slider">
+    <div class ="container">
+        <ul class="slider">
+            <li id="slide1">
+                <img src="img/foto5.jpg" />
+            </li>
+            <li id="slide2">
+                <img src="img/foto4.JPG" />
+            </li>
+            <li id="slide3">
+                <img src="img/foto3.jpg" />
+            </li>
+        </ul>
+
+        <ul class="menu">
+             <li>
+                <a href="#slide1"><i class="fas fa-home"></i></a>
+             </li>
+             <li>
+                <a href="#slide2"><i class="fas fa-home"></i></a>
+             </li>
+             <li>
+                <a href="#slide3"><i class="fas fa-home"></i></a>
+             </li>
+
+        </ul>
+    </div>
+</section>
+
+<!--INTRO CASAS EN VENTA-->
+<section class="nuevos"> 
+    <div class="proyectos2">
+        <h1>Actualmente en Construcción</h1>
+       <p>With over 15 years of experience under our hard hat,
+             we partner with owners and design professionals to build high-quality projects.</p>
+   
+</div>
+</section>
+
+<!--CASAS EN VENTA-->
+<section class="enventa"> 
+    <div class="fechas">
+        <div class ="containercards">
+            <div class="card">
+                <div class="imgBx">
+                    <img src="img/carta.jpg" >  
+                </div>
+                <div class="content">
+                    <h3>Casas en Venta</h2>
+                    <h4>Urbanización Jardines de Amgasi </h4>
+                        <h5>$1620c/m2. Casas de 120m2 </h5>
+                        <h5>Siguenos en redes sociales para más información.</h5>
+                         <a href=""><i class="fa fa-whatsapp fa-2x"></i></a>
+                         <a href="https://www.facebook.com/100703701700573/posts/116526270118316/"><i class="fa fa-facebook fa-2x"></i></a>
+                </div>
+            </div>
+    
+        <div class="card">
+            <div class="imgBx">
+                <img src="img/nosotros.jpg" >  
+            </div>
+            <div class="content">
+                <h3>Proximamente</h2>
+                <h5> Siguenos en redes sociales para más información.</h5>
+                <a href="https://www.instagram.com/capacit_ec/"><i class="fa fa-instagram fa-2x"></i></a>
+                <a href="https://www.facebook.com/Capacitec-100703701700573/"><i class="fa fa-facebook fa-2x"></i></a>
+            </div>
+        </div>
+</section>
+
+<!--FOOTER-->
+<footer>
+    <section class="footer">
+        <div class="logo">
+        <br><br>
+        <img alt ="logo Avila Selva" src="img/logo.jpg" height="70"/>  <br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+           Culpa qui ratione asperiores laborum nulla amet est nemo.</p></div>
+    
+        <div class="links">
+        <br><br>
+        <h1>Links</h1><br>
+            <a href="#">Inicio</a><br><br>
+            <a href="#">Proyectos</a><br><br>
+            <a href="#">Contacto</a></div><br><br>
+
+        <div class="contactos">
+        <br><br>
+        <h1>Encuéntranos en:</h1><br>
+        <p> <i class="fas fa-map-marker"></i>  Avigiras, Quito 170124 </p><br>
+
+        <p> <i class="fas fa-location-arrow"></i>  edas76@hotmail.com </p><br>
+
+        <p> <a href="#"><i class="fa fa-whatsapp fa-2x"></i></a> +5936698532</p><br>
+        <p> <a href="#"><i class="fa fa-facebook fa-2x"></i></a> </p><br>
+    </div>
+</section>
+
+
+</footer>
+
+
+</body>
+</html>

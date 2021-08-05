@@ -1,0 +1,17 @@
+@import "navbar.css";
+@import "slider.css";
+@import "header.css";
+@import "colors.css";
+@import "botones.css";
+@import "calidad.css";
+@import "obra.css";
+@import "antiguos.css";
+@import "nuevos.css";
+@import "footer.css";
+
+@media only screen and (max-width:500px){
+    .contactos, .links, .logo  {
+      width: 100%;
+      padding: 0% 5% 0% 5%;
+  } 
+}
